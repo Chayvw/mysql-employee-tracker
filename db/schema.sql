@@ -29,6 +29,7 @@ CREATE TABLE employee (
 
 DROP TABLE employee;
 
+
 SELECT * FROM department;
 
 SELECT * FROM role;
