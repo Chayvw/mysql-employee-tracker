@@ -38,7 +38,7 @@ const orm ={
         connection.query("SELECT * FROM employee", (err, allEmployees) => {
             if(err) throw err;
             console.table(allEmployees);
-            // init();
+            init();
         });
         
     },
@@ -46,7 +46,7 @@ const orm ={
         connection.query("SELECT * FROM department", (err, allDepartments) => {
             if(err) throw err;
             console.table(allDepartments);
-            // init();
+            init();
         });
 
     }
